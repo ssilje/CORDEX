@@ -40,6 +40,7 @@ for m,(mm,mmm) in enumerate(aa): #loop through each month
   print(mm)
   print('mmm')
   print(mmm)
+  df.iloc[:,m]= mmm.tas.values  
 
 
 ## Plotting 
