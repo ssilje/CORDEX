@@ -7,6 +7,7 @@ import cartopy.crs as ccrs
 
 # Read the data
 path = '/nird/projects/NS9001K/sso102/CORDEX/data/tas/EUR-11/rcp85'
+# cropped out southern norway from a cordex file.
 ncfile = xr.open_dataset(path + '/tas_mon_EUR-11_CLMcom_CCLM4-8-17_MPI-M-MPI-ESM-LR_r1i1p1_rcp85_1971-2099_SouthNorway.nc')
 
 # calculate area mean
